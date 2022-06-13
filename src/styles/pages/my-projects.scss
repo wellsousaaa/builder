@@ -1,0 +1,69 @@
+.my-projects-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.my-projects-title {
+    top: 15px;
+    left: 25px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 175px;
+    border-radius: 0.3rem;
+    background-color: rgb(187, 187, 187);
+}
+
+.my-projects-container {
+    width: 85%;
+    height: 85vh;
+    margin: auto;
+    background-color: rgb(187, 187, 187);
+    padding: 35px;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    
+    button {
+        align-self: flex-end;
+    }
+}
+
+.project-card {
+    width: 220px;
+    height: 320px;
+    cursor: pointer;
+
+    border-radius: 0.3rem;
+    background-color: rgb(197, 197, 197);
+
+    .project-image {
+        width: 100%;
+        height: 75%;
+    }
+
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 0.3rem;
+        background-color: gray;
+        font-size: 10pt;
+        height: 25%;
+
+        h3, p {
+            text-align: center;
+        }
+    }
+
+    .project-date {
+        align-self: flex-end;
+        margin-right: 10px !important;
+        font-size: 8pt;
+    }
+}

@@ -1,0 +1,89 @@
+.build-header {
+    padding: 20px 0px; 
+    background-color: gray;
+
+    & > div {
+        display: flex;
+        justify-content: space-between;
+    
+        width: 90vw;
+        margin: auto;
+        align-items: center;
+    }
+}
+
+.builds-page-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.builds-filter {
+    width: 100px;
+    height: 200px;
+
+    & > div {
+        position: fixed;
+        width: 100px;
+        height: 200px;
+    }
+}
+
+.builds-filter > div, .build-card {
+    background-color: #d3d3d3;
+    border-radius: 0.8rem;
+}
+
+.builds-container {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.build-card {
+    width: 100%;
+    cursor: pointer;
+    height: 250px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+}
+
+.build-info-card {
+    display: flex;
+    font-size: 11pt;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: justify;
+    gap: 10px;
+
+    h1 {
+        font-weight: 400;
+        font-size: 15pt;
+    }
+
+    .tags {
+        display: flex;
+        gap: 10px;
+        font-size: 10pt;
+        span {
+            padding: 5px; 
+            background-color: gray;
+            border-radius: 0.2rem;
+        }
+    }
+}
+
+.build-card-image {
+    width: 90%;
+    height: 80%;
+    background-color: gray;
+    border-radius: 0.8rem;
+}
